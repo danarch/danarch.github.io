@@ -1,8 +1,8 @@
 # Site settings
-title: Philosophy for a Type 1 Civilization
+title: Dylan Massell
 email: dylan.massell@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The meaning of life is to give meaning to your life.
+  What I have found the meaning of life to be, is simply to give meaning to life.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: dylanmassell

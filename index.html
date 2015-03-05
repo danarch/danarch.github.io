@@ -9,7 +9,7 @@ layout: default
       <div class="row-fluid">
         <div class="col-xs-5 col-sm-4">
           <a href="{{ page.title | prepend: "#modal" }}" data-toggle="modal" class="thumbnail">
-            <img src="{{ page.title | prepend: "{{ site.baseurl }}/images/" | append: ".jpg" }}" class="img-responsive img-rounded"/>
+            <img src="{{ page.title | prepend: "/images/" | append: ".jpg" }}" class="img-responsive img-rounded"/>
             <h4 class="caption text-center">{{ page.title }}</h4>
           </a>
         </div>

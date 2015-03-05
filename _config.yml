@@ -5,6 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   What I have found the meaning of life to be, is simply to give meaning to life.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dylanmassell.com" # the base hostname & protocol for your site
+googleplus_username: +DylanMassell
+linkedin_username: dylan-massell
 twitter_username: dylanmassell
 github_username:  danarch
 
@@ -13,7 +15,7 @@ markdown: kramdown
 sass:
   # loading path from site root
   # default to _sass
-  sass_dir: assets/stylesheets
+  sass_dir: assets/bootstrap/stylesheets
 
   # style : nested (default), compact, compressed, expanded
   #         :nested, :compact, :compressed, :expanded also works

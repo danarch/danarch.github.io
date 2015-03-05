@@ -4,10 +4,18 @@ title: Skills
 weight: 2
 ---
 
-Welcome to my personal space of the web. My name is Dylan Massell, and I like to see myself as a philosopher.
-And I mean that in the mere sense of a lover of knowledge. Learning is my passion, whether it's coding and programing,
-mathematics and science, psychology and theology, music and art, history and law, or business and economics. These are
-areas that I have had some education or experience in, and have a deep interest in further pursuits. I will be using this
-site to showcase my work, experiences, what I've learned in these areas, as well as life in general. I'd be very
-grateful for your feedback or any oppurtunities you'd like to share. Don't hesitate to get in touch,
-and I hope you find interest in my ideas!
+Competitive thinker which uses thorough research to support a variety of solutions
+Talent for writing with detailed problem analysis
+Aptitude for math and computer programming with self-taught and formal training in
+the following languages and frameworks:
+Ruby, Rails, HTML, CSS, Haml, jQuery, Javascript, Bootstrap, Semantic-UI,
+AngularJS, Sinatra, Visual Basic, PostgreSQL, SQLite, SQL
+
+Languages
+English as native language
+French fluency in reading, writing, and speaking
+
+Aspirations
+Management of programming projects while furthering experiences in coding and
+programming
+Development of ethical values as related to internet use.

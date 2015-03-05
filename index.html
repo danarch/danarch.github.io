@@ -8,13 +8,13 @@ layout: default
     {% if page.title %}
       <div class="row-fluid">
         <div class="col-xs-5 col-sm-4">
-          <a href="#mymodal" data-toggle="modal" class="thumbnail">
-            <img src="/images/DylanMassellprofile.jpg" class="img-responsive img-rounded"/>
+          <a href="{{ page.title | prepend: "#modal" }}" data-toggle="modal" class="thumbnail">
+            <img src="{{ page.title | prepend: "/images/" | append: ".jpg" }}" class="img-responsive img-rounded"/>
             <h4 class="caption text-center">{{ page.title }}</h4>
           </a>
         </div>
       </div>
-      <div class="modal" id="mymodal" role="dialog">
+      <div class="modal" id="{{ page.title | prepend: "modal" }}" role="dialog">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">

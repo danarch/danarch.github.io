@@ -2,6 +2,7 @@
 layout: page
 title: About
 weight: 1
+image: /images/About.jpg
 ---
 
 Welcome to my personal space of the web. My name is Dylan Massell, and I like to see myself as a philosopher.

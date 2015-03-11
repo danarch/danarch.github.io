@@ -3,6 +3,7 @@ layout: page
 title: Philosophy
 weight: 5
 image: /images/Philosophy.jpg
+categories: philosophy
 ---
 
 I have always had a love for knowledge, and with this site brings the opportunity to share what I've learned

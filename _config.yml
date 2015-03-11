@@ -5,7 +5,7 @@ tagline: The meaning of life is simply to make life meaningful.
 description: > # this means to ignore newlines until "baseurl:"
   A webspace dedicated to showcasing my work and experience. Contact me for any oppurtunities you might have.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dylanmassell.com" # the base hostname & protocol for your site
+url: "http://dylanmassell.net" # the base hostname & protocol for your site
 googleplus_username: +DylanMassell
 linkedin_username: dylan-massell
 twitter_username: dylanmassell

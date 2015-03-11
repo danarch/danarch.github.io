@@ -23,6 +23,15 @@ layout: default
             </div>
             <div class="modal-body">
               {{ page.content | markdownify }}
+              <ul class="post-list">
+                {% for post in page.categories %}
+                <li>
+                  <h4>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  </h4>
+                </li>
+                {% endfor %}
+              </ul>
             </div>
           </div>
         </div>

@@ -3,35 +3,14 @@ layout: default
 ---
 
 <div class="home">
-  {% assign pages = site.pages | sort:"weight"  %}
-  {% for page in pages %}
-    {% if page.title %}
-      <div class="row-fluid">
-        <div class="col-xs-5 col-sm-4">
-          <a href="{{ page.title | prepend: "#modal" }}" data-toggle="modal" class="thumbnail">
-            <img src="{{ page.image }}" class="img-responsive img-rounded"/>
-            <h4 class="caption text-center">{{ page.title }}</h4>
-          </a>
-        </div>
-      </div>
-      <div class="modal" id="{{ page.title | prepend: "modal" }}" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h2 class="modal-title" id="myModalLabel">{{ page.title }}</h2>
-            </div>
-            <div class="modal-body">
-              {{ page.content | markdownify }}
-              {% for post in site.categories.[page.tag] %}
-                <h4>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h4><br />
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <img src="/images/CodeEarth.jpg" class="img-rounded img-responsive" alt="Responsive image">
+  <h2>Junior Ruby on Rails Web Developer</h2>
+  <p>Studying philosophy and mathematics at an international university, analyzing company sales numbers and customer
+    service cases through programming, and learning Ruby on Rails web development have made me into a uniquely talented
+    worker. I can leverage big picture, global thinking with a focus on the details into web services that can truly
+    make an impact. I am most passionate about consciousness and language, and how to efficiently and effectively bring
+    people together for a better world.
+  </p>
+  <h3>Featured Projects</h3>
+  
 </div>

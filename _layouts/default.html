@@ -9,8 +9,20 @@
 
     <div class="page-content">
       <div class="container-fluid">
-        <div class="col-sm-8 col-sm-offset-2">
-          {{ content }}
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-1">
+            {% assign pages = site.pages | sort:"weight"  %}
+            <ul class="nav nav-pills nav-stacked">
+              {% for page in pages %}
+                {% if page.title %}
+                  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="col-sm-8">
+            {{ content }}
+          </div>
         </div>
       </div>
     </div>

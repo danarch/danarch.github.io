@@ -7,11 +7,7 @@ image: /images/Work.jpg
 
 ###Programming Applications:###
 
-####Iron Yard Projects####  
-1. __TagReader:__    
-  [<img src="/images/TagReader.png" alt="Logo" width="48" height="48" class="pull-left">](https://tagreader.herokuapp.com)
-  An application that will fetch your untagged articles from [Pocket](https://getpocket.com/) and parse them through the [AlchemyAPI](http://www.alchemyapi.com/) natural language processor to return suggested tags. You can edit and add these tags to the original article in your Pocket queue.  
-  [Code on Github](https://github.com/danarch/TagReader)  
+####Iron Yard Projects####   
 2. __IronShop:__  
   [Code on Github](https://github.com/danarch/iron-shop)  
 

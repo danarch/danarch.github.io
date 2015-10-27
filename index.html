@@ -12,5 +12,12 @@ layout: default
     people together for a better world.
   </p>
   <h3>Featured Projects</h3>
-  
+  {% assign features = site.posts | tag:"featured" %}
+  {% for post in features %}
+    <h4>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h4>
+    <p>{{ post.content }}</p>
+    <br />
+  {% endfor %}
 </div>

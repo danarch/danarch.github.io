@@ -4,8 +4,25 @@ title: "The Iron Yard Final Project - TagReader"
 date: 2015-10-27 14:30:00
 tag: featured
 ---
-<a href="https://tagreader.herokuapp.com"><img src="/images/tagreaderscreenshot.png" class="img-responsive pull-left"></a>
-<p>An application that will fetch your untagged articles from <a href="https://getpocket.com/">Pocket</a> and parse them
-  through the <a href="http://www.alchemyapi.com/">AlchemyAPI</a> natural language processor to return suggested tags.
-  You can edit and add these tags to the original article in your Pocket queue. <br />
-<a href="https://github.com/danarch/TagReader">Code on Github</a></p>
+<div class="row">
+  <div class="col-md-7">
+    <img src="/images/tagreaderscreenshot.png" class="img-responsive pull-left">
+  </div>
+  <div class="col-md-5">
+    <img src="/images/pocketscreenshot.png" class="img-responsive pull-left">
+  </div>
+</div>
+<br />
+<div class ="row">
+  <p>This application allows you to log on with your <a href="https://getpocket.com/">Pocket</a> account and will
+    fetch your untagged articles from your queue. As it imports the articles, the application connects to the
+    <a href="http://www.alchemyapi.com/">AlchemyAPI</a> natural language processor and attaches key concepts as
+    tags. You can edit and then add these tags to the original article in your Pocket queue for better organization.
+    <br />
+    <dl class="dl-horizontal">
+      <dt>Tech and tools used:</dt>
+      <dd>Ruby on Rails, HAML, Javascript, jQuery, Semantic UI, AJAX, OmniAuth, Pocket API, AlchemyAPI, PostgreSQL, pg search</dd>
+    </dl>
+    <a href="https://github.com/danarch/TagReader">View code on Github</a>
+  </p>
+</div>

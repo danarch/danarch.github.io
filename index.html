@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="home">
-  <img src="/images/CodeEarth.jpg" class="img-rounded img-responsive" alt="hello world!">
+<div class="row">
+  <img src="/images/CodeEarth.jpg" class="img-thumbnail img-responsive" alt="hello world!"/>
   <h2>Junior Ruby on Rails Web Developer</h2>
   <p>Studying philosophy and mathematics at an international university, analyzing company sales numbers and customer
     service cases through programming, and learning Ruby on Rails web development have made me into a uniquely talented
@@ -11,13 +11,15 @@ layout: default
     make an impact. I am most passionate about consciousness and language, and how to efficiently and effectively bring
     people together for a better world.
   </p>
+</div>
+<div class="row">
   <h3>Featured Projects</h3>
   {% assign features = site.tags.featured %}
   {% for post in features %}
-    <h4>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h4>
-    <p>{{ post.content }}</p>
+    <div class="well well-sm">
+      <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+      <p>{{ post.excerpt }}</p>
+    </div>
     <br />
   {% endfor %}
 </div>

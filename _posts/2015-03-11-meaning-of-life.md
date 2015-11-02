@@ -2,7 +2,7 @@
 layout: post
 title: "The Meaning of Life"
 date: 2015-03-11 12:45:00
-categories: philosophy
+tags: philosophy
 ---
 A lot of people think that philosophy is about finding the meaning of life. While that is a major question within the field, philosophy, as the love or quest for knowledge and wisdom, has much more to offer. Science, linguistics, psychology, and even mathematics have their roots in philosophy, and in exploring these and other areas we can form better answers to the traditional philosophy questions in ontology, epistemology, and metaphysics. My studies in these areas have led me to a somewhat simple answer to the question "What is the meaning of life?", and you might feel like it isn't quite a full answer you might be looking for.
 

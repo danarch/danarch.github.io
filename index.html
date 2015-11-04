@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-
+<h1><strong>Junior Ruby on Rails Web Developer</strong></h1>
 <div class="row">
-  <img src="/images/CodeEarth.jpg" class="img-thumbnail img-responsive" alt="hello world!"/>
-  <h2>Junior Ruby on Rails Web Developer</h2>
+  <div class="col-md-12">
+    <img src="/images/CodeEarth.jpg" class="img-responsive img-thumbnail" alt="hello world!"/>
+  </div>
+</div>
+<br />
+<div class="row">
   <p>Studying philosophy and mathematics at an international university, analyzing company sales numbers and customer
     service cases through programming, and learning Ruby on Rails web development have made me into a uniquely talented
     worker. I can leverage big picture, global thinking with a focus on the details into web services that can truly
@@ -16,9 +20,11 @@ layout: default
   <h3>Featured Projects</h3>
   {% assign features = site.tags.featured %}
   {% for post in features %}
-    <div class="well well-sm">
-      <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-      <p>{{ post.excerpt }}</p>
+    <div class="col-md-12">
+      <div class="well well-sm">
+        <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        <p>{{ post.excerpt }}</p>
+      </div>
     </div>
     <br />
   {% endfor %}

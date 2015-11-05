@@ -23,9 +23,8 @@ layout: default
     <div class="col-md-12">
       <div class="well well-sm">
         <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-        <p>{{ post.excerpt }}</p>
+        <p>{{ post.content }}</p>
       </div>
     </div>
-    <br />
   {% endfor %}
 </div>

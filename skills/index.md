@@ -2,7 +2,7 @@
 layout: page
 title: Skills
 weight: 2
-image: /images/Skills.png
+image: /images/Skills.jpg
 ---
 
 I am a competitive thinker with an emphasis on thorough research in order to develop a variety of solutions for a given problem. This skill has led me to develop a talent for writing with detailed problem analysis. I have a high aptitude for math and computer programming, and pursued these interests through independent study in addition to formal education and training. I currently have experiences in working with the following programming languages and frameworks:

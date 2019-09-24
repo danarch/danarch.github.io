@@ -20,7 +20,7 @@ layout: default
   {% for post in features %}
     <div class="col-md-12">
       <div class="well well-sm">
-        <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        <h4><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h4>
         <p>{{ post.content }}</p>
       </div>
     </div>
